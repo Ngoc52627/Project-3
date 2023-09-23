@@ -122,3 +122,23 @@ h1 {
     font-weight: 600;
     cursor: pointer;
 }
+/* CSS Mobile */
+@media (max-width: 575.98px) {
+    .category-button {
+        width: calc(100%/4 - 10px);
+        font-size: 9px;
+        padding: 7px;
+    }
+    .product-item {
+        width: calc(100%/3 - 10px);
+    }
+    .product-item .title {
+        font-size: 12px;
+    }
+    .product-item .detail {
+        font-size: 12px;
+    }
+    .product-img img {
+
+    }
+}
