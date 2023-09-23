@@ -1,7 +1,7 @@
 import drawCategory from "./drawCategory.js";
 import drawProduct from "./drawProduct.js";
 import fetchApi from "./getApi.js";
-import resetUrl from "./resetURL.js";
+import resetUrl from "./resetUrl.js";
 import { CATEGORYURL, categorys, requier, inputSearch } from "./variables.js";
 import { resetPagingButton } from "./product.js";
 drawCategory();

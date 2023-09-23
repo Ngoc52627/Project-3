@@ -1,7 +1,7 @@
 import drawProduct from "./drawProduct.js";
 import { inputSearch, buttonSearch, requier } from "./variables.js";
 import { optionSort, prev, numberPage, next } from "./variables.js";
-import resetUrl from "./resetURL.js";
+import resetUrl from "./resetUrl.js";
 import { resetButton } from "./category.js";
 import fetchApi from "./getApi.js";
 import url from "./api.js";
